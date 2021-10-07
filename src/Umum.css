@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body-umum{
+    background-color: rgb(4, 151, 225);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    color: rgb(112, 112, 112);
+    height: 1000px;
+}
+.logo img{
+    height: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.main-umum{
+    background-color: white;
+    margin: 50px auto;
+}
+.list-item-umum{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.list-item-umum:hover{
+    background-color: rgb(4, 151, 225);
+    transition: 0.5s;
+    color: white;
+}
+.deskripsi-umum{
+    margin-left: 20px;
+}
+
+.deskripsi-umum p{
+    font-size: 12px;
+}
+.list-item-umum img{
+    border-radius: 100%;
+}
+.main-umum{
+    padding: 50px;
+    width: 60%;
+    border-radius: 20px;
+}

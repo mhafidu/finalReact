@@ -1,0 +1,55 @@
+
+.body-hasil{
+    background-color: rgb(4, 151, 225);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    color: rgb(112, 112, 112);
+    max-width: 100%;
+}
+.main-hasil{
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+.list-hasil{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.list-hasil:hover{
+    background-color: rgb(4, 151, 225);
+    transition: 0.5s;
+    color: white;
+}
+.deskripsi-hasil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 75%;
+}
+.list-hasil img{
+    border-radius: 20px;
+}
+.status-bottom-hasil span{
+    background-color: rgb(0, 209, 70);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.status-bottom-hasil{
+    position: relative;
+}
+.status-bottom-hasil p{
+    position: absolute;
+    left: 400px;
+    top: 0px;
+}
+.list-hsl{
+    /* background-color: red;    */
+}
+
+

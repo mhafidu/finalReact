@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import react from 'react';
+
+import Profil from './pages/Profil'
+import News from './pages/News'
+import Hasil from './pages/Hasil'
+import Umum from './pages/Umum';
+import Apply from './pages/Apply'
+import Home from './pages/Home';
+import Page from './pages/Page'
+import Cv from './pages/Cv'
+
+
+ 
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Apply />
     </div>
   );
 }
