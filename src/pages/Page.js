@@ -3,6 +3,9 @@ import '../Page.css'
 import Gambar from '../asset/gambar.png'
 import Logo from '../asset/logo.png'
 import Navbar from '../components/Navbar'
+import Navbarafter from '../components/Navbarafter'
+import Gambar2 from '../asset/gambar2.svg'
+import Gambar3 from '../asset/gambar3.svg'
 
 
 
@@ -120,7 +123,7 @@ function page() {
 
         {/* <!--========== HEADER ==========--> */}
         <header className="l-header" id="header">
-            <Navbar></Navbar>
+            <Navbarafter />
         </header>
 
         <main className="l-main">
@@ -147,7 +150,7 @@ function page() {
                         <a href="#" className="button">Explore history</a>
                     </div>
 
-                    <img src="assets/img/about.jpg" alt="" className="about__img"/>
+                    <img src={Gambar3} alt="" className="about__img"/>
                 </div>
             </section>
 
@@ -483,7 +486,7 @@ function page() {
                         </div>
                     </div>
 
-                    <img src="assets/img/movil-app.png" alt="" className="app__img"/>
+                    <img src={Gambar2} alt="" className="app__img"/>
                 </div>
             </section>
 

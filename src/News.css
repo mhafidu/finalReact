@@ -61,10 +61,6 @@
     display: flex;
     justify-content: flex-start;
 }
-button{
-    background-color: rgb(107, 0, 0);
-    border-radius: 100%;
-}
 .lingkaran{
     background-color: white; 
     border-radius: 100%;width: 50px;

@@ -1,5 +1,163 @@
-*{
-    padding: 0px;
-    margin: 0px;
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --first-color: #0497E1;
+  --first-color-alt: #008ad0;
+  --title-color: #393939;
+  --text-color: #707070;
+  --text-color-light: #A6A6A6;
+  --body-color: #FBFEFD;
+  --container-color: #FFFFFF;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes ==========*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+.container-cv{
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+    margin-top: 20px;
+}
+/* sidebar */
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5%;
+}
+/* main content */
+.main-content {
+    padding: 30px;
+    background-color: white;
+    width: 60%;
+    height: 760px;
+    border-radius: 20px;
+    overflow: hidden;
     box-sizing: border-box;
+    
+}
+.pdf-container{
+    margin: 24px auto;
+    column-gap: 5%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-bottom: 20px;
+}   
+.pdf-container img {
+    width: 35%;
+    height: 70%;
+}
+
+.pdf-item{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 24px;
+}
+
+.pdf-text{
+    width: 100%;
+    margin-top: 12px;
+}
+
+.checkbox-pdf{
+    position: absolute;
+    right: -10px;
+    width: 35px;
+    height: 35px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(175, 175, 175); 
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:  rgb(107, 107, 107); 
+}
+/* actionbar */
+.actionbar{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: fit-content;
+    border-radius: 20px;
+    padding: 36px;
+    box-sizing: border-box;
+}
+
+.actionbar h2{
+    margin-bottom: 12px;
+}
+.actionbar button{
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+.actionbar button:not(:last-child){
+    margin-bottom: 12px;
+}
+
+.upload-btn{
+    background-color: #04E16A;
+}
+.upload-btn:hover{
+    background-color: #00b554;
+}
+
+.pilih-btn{
+    background-color: #333333;
+}
+.pilih-btn:hover{
+    background-color: #111111;
+}
+
+.delete-btn{
+    background-color: #E10439;
+    
+}
+.delete-btn:hover{
+    background-color: #ba002b;
+    
 }

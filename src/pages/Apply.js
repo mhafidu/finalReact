@@ -1,7 +1,10 @@
 import React from 'react'
 import '../Apply.css'
+import {useRef} from 'react'
+import ReactDOM from 'react-dom'
 
 function Apply() {
+    const container = useRef()  
     function openCity(cityName) {
         var i;
         var x = document.getElementsByClassName("city");
@@ -34,13 +37,13 @@ function Apply() {
                     <div className="content-bot">
                     {/* <!-- menu-com --> */}
                     <div className="menu1">
-                        <button className="menu" onclick={openCity('London')}><b>About</b> </button>
-                        <button className="menu" onclick={openCity('Paris')}><b>Jobs</b> </button>
-                        <button className="menu" onclick={openCity('Tokyo')}><b>News</b> </button>
+                        <button className="menu" onclick={openCity("About")}><b>About</b> </button>
+                        <button className="menu" onclick={openCity("Jobs")}><b>Jobs</b> </button>
+                        <button className="menu" onclick={openCity("News")}><b>News</b> </button>
                     </div>
                     {/* <!-- list-item-menu --> */}
                     {/* <!-- item1 --> */}
-                    <div id="London" className="w3-container city">
+                    <div id="About" className="w3-container city">
                         {/* <!-- about --> */}
                         <h2><b>About</b></h2>
                         <br/>
@@ -65,7 +68,7 @@ function Apply() {
                         </div>
                     </div>
                     {/* <!-- item2 --> */}
-                    <div id="Paris" className="w3-container city" style={{display:"none"}}>
+                    <div id="Jobs" className="w3-container city" style={{display:"none"}}>
                         {/* <!-- jobs --> */}
                         <h2><b>Jobs</b></h2>
                         <br/>
@@ -189,7 +192,7 @@ function Apply() {
                         </div>
                             </div>
                     {/* <!-- item3 --> */}
-                    <div id="Tokyo" className="w3-container city" style={{display:"none"}}>
+                    <div id="News" className="w3-container city" style={{display:"none"}}>
                         {/* <!-- news --> */}
                         <h2><b>News</b></h2>
                         <br/>

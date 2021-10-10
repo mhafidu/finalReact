@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container-perusahaan{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    column-gap: 2%;
+    height: 2000px;
+}
+.content-top-perusahaan{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-content-perusahaan{
+    background-color: white;
+    border-radius: 20px;
+    height: 900px;
+    width: 800px;
+    padding: 30px;
+}
+.content-main-perusahaan{
+    width: 100%;
+    column-gap: 4%;
+    row-gap: 4%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-top: 20px;
+    
+}
+.container-dropdown-perusahaan{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}

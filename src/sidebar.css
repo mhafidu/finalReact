@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container-sidebar{
+    background-color: #ffffff;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(46, 46, 46);
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+.profil-sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto-profil-sidebar{
+    border: 1px solid rgb(255, 0, 162);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.sosial-media-sidebar img{
+    margin-right: 5px;
+}
